@@ -30,7 +30,7 @@
         <div class="info-box">
            <h1><span>Hello, I'm Kien</span></h1>
            <h3><span>Devops Engineer</span></h3>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius officia temporibus veniam, ipsam quas hic. Deserunt dolorem velit debitis reprehenderit, sit, tempora incidunt placeat vero eveniet distinctio nemo rem?</p>
+           <p>I am seeking employment as a DevOps Engineer, utilizing my experience with scripting languages, automation tools to optimize system performance.</p>
         </div>
 
         <div class="btn-box">
@@ -45,7 +45,8 @@
 
            <div class="about-info">
              <h1><span>About me</span></h1>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis magni maiores dolorem repudiandae, quidem saepe labore quaerat modi voluptatum, nostrum sint impedit fugit necessitatibus perspiciatis facere doloremque assumenda repellendus ipsam!</p>    
+             <p>I am a final-year Computer Science student at CMC University with a strong interest in cloud computing, automation, and system architecture. My goal is to become a Senior DevOps Engineer, leveraging my knowledge in development operations, continuous integration, and infrastructure management. Through my academic coursework and hands-on projects, I have developed key skills in scripting, containerization, and cloud platforms. I am eager to apply these skills in a dynamic, innovative environment and contribute to efficient, scalable solutions.
+             </p>    
            </div> 
            <h2><span>Skills</span></h2>
            <div class="skills">
@@ -116,21 +117,25 @@
     </section>
     <section id="contact">
        <h1 class="header"><span>Contact</span></h1>
-
-       <form action="#">
+       <form action="https://api.web3forms.com/submit" method="POST">
+         <input type="hidden" name="access_key" value="9a14b579-c3b0-4f04-a67f-eec47c2b3122">
          <div class="input-box">
             <span>Full Name</span>
-            <input type="text" placeholder="Enter your full name">
-         </div>
-         <div class="input-box">
+            <input type="text" name="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="input-box">
             <span>Your Email</span>
-            <input type="text" placeholder="Enter your email">
-         </div>
-         <div class="input-box">
+            <input type="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
             <span>Your Message</span>
-            <input type="text" placeholder="Enter your Message">
-         </div>
-         <div class="btn">Sumbit</div>
+            <input type="text" name="message" placeholder="Enter your Message" required>
+          </div>
+        <!-- <input type="submit" class="btn">
+        <div type="submit" class="btn">Sumbit</div> -->
+        <button type="submit" class="btn">Submit</button>
+         
+
        </form>
     </section>
     <footer>

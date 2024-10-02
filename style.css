@@ -122,6 +122,7 @@ section{
     background-color: var(--background);
     color: white;
 }
+
 ::-webkit-scrollbar{
     width: 10px;
     background-color: var(--background);
@@ -208,6 +209,7 @@ section{
     padding: 3em;
     gap: 2em;
     color: white;
+    cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 .box:hover{
@@ -251,7 +253,7 @@ form input{
     outline: none;
 }
 form input:focus{
-    background: rgb(229,229,229);
+    background: rgb(229, 229, 229);
 }
 footer{
     display: flex;
