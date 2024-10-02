@@ -178,7 +178,17 @@ section{
 }
 .skills ul li span:hover{
     transform: translate(10px);
-}   
+}
+.skills ul li span a {
+    color: inherit; /* Thừa kế màu chữ từ phần tử cha */
+    text-decoration: none; /* Bỏ gạch chân của liên kết */
+}
+
+.skills ul li span a:hover {
+    color: inherit; /* Giữ nguyên màu khi hover */
+    text-decoration: underline; /* Thêm gạch chân khi hover (tùy chọn) */
+}
+
 .skills ul li i{
     font-size: 1.2em;
 }
@@ -298,8 +308,8 @@ footer{
     gap: 1em;
 }
 .col-right .social-icons i{
-    font-size: 2em;
-    transition: 0.2s ease-in-out;
+    font-size: 1em;
+    transition: 0.25s ease-in-out;
     cursor: pointer;
 }
 .social-icons i:hover{
