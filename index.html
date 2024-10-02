@@ -29,13 +29,14 @@
 
         <div class="info-box">
            <h1><span>Hello, I'm Kien</span></h1>
-           <h3><span>Devops Engineer</span></h3>
+           <h3><span>I'm a</span> <span class="multiText"></span></h3>
            <p>I am seeking employment as a DevOps Engineer, utilizing my experience with scripting languages, automation tools to optimize system performance.</p>
         </div>
 
         <div class="btn-box">
            <div class="btn">Hire</div>
            <div class="btn">Contact Me</div>
+           <div class="btn"><a href="https://github.com/gk12355a/portfolio" target="_blank"></a>CV</div>
         </div>
     </section>
 
@@ -209,5 +210,15 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["Devops Engineer", "Cloud Engineer", "Software Engineer"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
+        })
+    </script>
 </body>
 </html>
